@@ -1,10 +1,10 @@
 # DCLiteRb
 
-[![Code Climate](https://codeclimate.com/github/crsde/DCLiteRb/badges/gpa.svg)](https://codeclimate.com/github/crsde/DCLiteRb) [![Gem Version](https://badge.fury.io/rb/dcliterb.svg)](http://badge.fury.io/rb/dcliterb)
+[![Gem Version](https://badge.fury.io/rb/dcliterb.svg)](http://badge.fury.io/rb/dcliterb)
 
 This gem provides you with simple Ruby interface for api.dclite.app mail service.
 
-Documentation available at http://www.rubydoc.info/github/crsde/DCLiteRb
+Documentation available at https://www.rubydoc.info/gems/dcliterb/
 
 Original API documentation https://dclite.ru/api/
 
