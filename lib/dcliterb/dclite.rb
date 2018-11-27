@@ -4,7 +4,7 @@ require 'faraday_middleware'
 module DCLite
   class Connection
 
-    API_URL = 'https://api.dclite.app'
+    API_URL = 'https://api.dclite.ru'
 
     # Initializes new connection instance
     #
@@ -30,7 +30,7 @@ module DCLite
 
     # Invokes API method by name
     #
-    # @param method [String] Method name, corresponding API reference https://api.dclite.app//
+    # @param method [String] Method name, corresponding API reference https://api.dclite.ru//
     # @param params [Hash] Params to be passed
     def call_method(method, params = {})
       response = connection.post '/', {method: method}.merge(credentials).merge(params)

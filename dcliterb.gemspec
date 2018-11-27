@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alexandr Prokopenko"]
   spec.email         = ["prokopenko@igc.ru"]
   spec.summary       = "DC Lite service API"
-  spec.description   = "Interface for api.dclite.app service API"
+  spec.description   = "Interface for api.dclite.ru service API"
   spec.homepage      = "https://github.com/dclite/api_ruby"
   spec.licenses       = ['MIT']
   spec.metadata    = { "source_code_uri" => "https://github.com/dclite/api_ruby" }

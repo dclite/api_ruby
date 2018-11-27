@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/dcliterb.svg)](http://badge.fury.io/rb/dcliterb)
 
-This gem provides you with simple Ruby interface for api.dclite.app mail service.
+This gem provides you with simple Ruby interface for api.dclite.ru mail service.
 
 Documentation available at https://www.rubydoc.info/gems/dcliterb/
 
@@ -34,7 +34,7 @@ DCLiteRb declares some classes for API objects, like *List*, *Member*, etc
 
 Optionally you can additionally pass third parameter to DCLite::Connection constructor, to change API url (for example if you plan to use compatible service):
 
-    conn = DCLite::Connection.new('login', 'password', 'https://api.dclite.app')
+    conn = DCLite::Connection.new('login', 'password', 'https://api.dclite.ru')
 
 Also, you can use universal invocation method with *#call_method*
 
